@@ -6,7 +6,7 @@
   "scripts": {
     "format": "npx prettier --write index.js",
     "test": "snyk test",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepublish": "npm run snyk-protect"
   },
   "keywords": [],
@@ -14,7 +14,8 @@
   "license": "Apache 2.0",
   "dependencies": {
     "follow": "^1.1.0",
-    "snyk": "^1.277.2"
+    "snyk": "^1.883.0",
+    "@snyk/protect": "latest"
   },
   "snyk": true
 }
